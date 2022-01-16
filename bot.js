@@ -13,8 +13,8 @@ bot.start(ctx=>{
         {
             reply_markup: {
                 inline_keyboard: [
-                    [{text: "Botlarımız 👨🏻‍💻",callback_data: "bot"},{text: "Haqqımızda ℹ",callback_data: "haqqimizda"}],
-                    [{text: "Kanalımız 🇦🇿",url: "https://t.me/sizinkanal"}]
+                    [{text: "Owner 👨🏻‍💻",callback_data: "bot"},{text: "Haqqımızda ℹ",callback_data: "haqqimizda"}],
+                    [{text: "BTT Botlar 👨🏻‍💻 ",url: "https://t.me/BTTBotlar"}]
                 ]
             }
         }
@@ -42,7 +42,7 @@ bot.action("gizlilik",ctx=>{
          reply_markup: {
                 inline_keyboard: [
                     [{ text: "👨🏻 Ana Səhifə", callback_data: "yenidenstart" }],
-                    [{ text: "Kanalımız✅", url: "https://t.me/sizinkanal" }],
+                    [{ text: "BTT Botlar 👨🏻‍💻", url: "https://t.me/BTTBotlar" }],
                 ]
             }
         }
@@ -55,8 +55,8 @@ bot.action("yenidenstart",ctx=>{
         {
             reply_markup: {
                 inline_keyboard: [
-                    [{text: "Botlarımız 👨🏻‍💻",callback_data: "bot"},{text: "Haqqımızda ℹ",callback_data: "haqqimizda"}],
-                    [{text: "Kanalımız 🇦🇿",url: "https://t.me/sizinkanal"}]
+                    [{text: "Owner 👨🏻‍💻",callback_data: "bot"},{text: "Haqqımızda ℹ",callback_data: "haqqimizda"}],
+                    [{text: "BTT Botlar 👨🏻‍💻",url: "https://t.me/BTTBotlar"}]
                 ]
             }
         }
@@ -71,7 +71,7 @@ bot.action("bot",ctx=>{
             reply_markup: {
                 inline_keyboard: [
                     [{text: "🎮 Sizin oyun bot adı",callback_data: "game"},{text: "🇦🇿 Sizin Music bot",callback_data: "music"}],
-                    [{text: "Kanalımız 🇦🇿",url: "https://t.me/sizinkanal"}]
+                    [{text: "BTT Botlar 👨🏻‍💻",url: "https://t.me/BTTBotlar"}]
                 ]
             }
         }
@@ -98,8 +98,8 @@ bot.action("game",ctx=>{
         {
             reply_markup: {
                 inline_keyboard: [
-                    [{text: "👨🏻 Ana Səhifə",callback_data: "yenidenstart"},{text: "Kömək ℹ",url: "https://t.me/sizinbotadı?start"}],
-                    [{text: "Bot'u qruplarınıza Əlavə edin✅",url: "https://t.me/sizinbotadı?startgroup=a"}]
+                    [{text: "👨🏻 Ana Səhifə",callback_data: "yenidenstart"},{text: "Kömək ℹ",url: "http://t.me/BTTNezaretBot?start"}],
+                    [{text: "Bot'u qruplarınıza Əlavə edin✅",url: "http://t.me/BTTNezaretBotstartgroup=a"}]
                 ]
             }
         }
